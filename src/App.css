@@ -1,0 +1,79 @@
+.App {
+    width: 100%;
+    min-height: 100vh;
+    /*background-color: rgb(100, 61, 210);*/
+    background-image: url(https://conceptodefinicion.de/wp-content/uploads/2020/08/clima.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    background-color: #fff9;
+    padding: 1.5em 1.5em;
+    border-radius: 0.7em;
+    width: 100%;
+    max-width: 400px;
+}
+.card_title {
+    text-align: center;
+    font-size: 2rem;
+}
+.card_subtitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 2em;
+}
+.card_body {
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    align-items: center;
+    gap: 0.5em;
+    margin-top: 1em;
+}
+.card_info-title {
+    text-align: center;
+    margin-bottom: 0.8em;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.card_info-body {
+    display: grid;
+    gap: 0.5em;
+    margin-bottom: 0.3em;
+}
+.card_info-item {
+    font-size: 0.8rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-weight: 600;
+}
+.card_info-label {
+    font-weight: 300;
+}
+.card_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card_temperature {
+    margin-bottom: 0.8em;
+
+}
+.card_btn {
+    font-size: 0.9rem;
+    padding: 0.7em 1.5em; 
+    border-radius: 0.4em;
+    box-shadow: 0.2em 0.2em 0.5em #000;
+    filter: brightness(0.95);
+    transition: filter 200ms ease, transform 100ms ease;
+    cursor: pointer;
+}
+.card_btn:hover {
+    filter: brightness(1);
+    transform: scale(1.05);
+}

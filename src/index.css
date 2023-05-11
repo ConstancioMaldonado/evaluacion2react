@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Fascinate&family=Kdam+Thmor+Pro&family=Playball&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@1,500&display=swap');
+
+/*----*/
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    margin: 0;
+}
+h1, h2, h3, p, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul {
+    padding-left: 0;
+    list-style: none;
+}
+img {
+    display: block;
+    width: 100%;
+}
+button {
+    display: block;
+    border: none;
+}
